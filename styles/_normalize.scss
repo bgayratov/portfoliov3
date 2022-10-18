@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1.5px solid black;
+    padding: 5px;
+}
+
+/* MADE BY: */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&family=Ubuntu:wght@500&display=swap');
+
+.gayratov {
+    text-align: center;
+    background-color: white;
+}
+
+#gayratov {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+        font-weight: 600;
+    }
+}
+/* - END - */
